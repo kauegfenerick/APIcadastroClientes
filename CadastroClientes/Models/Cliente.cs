@@ -31,5 +31,12 @@ namespace CadastroClientes.Models
 
             return idade;
         }
+
+        public void AtualizaDados(string nome, DateTime nascimento, string email)
+        {
+            Nome = nome;
+            Nascimento = nascimento;
+            Email = email;
+        }
     }
 }
